@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.fec8ae73.css",
-    "main.js": "/my-portfolio/static/js/main.f3506b41.js",
+    "main.css": "/my-portfolio/static/css/main.621bf6bf.css",
+    "main.js": "/my-portfolio/static/js/main.a96c4f4d.js",
     "static/media/patri_9.png": "/my-portfolio/static/media/patri_9.84dc1044a25b7698e42b.png",
     "static/media/patri_10.png": "/my-portfolio/static/media/patri_10.63a47704fc9d2ed1da38.png",
     "static/media/patri_11.png": "/my-portfolio/static/media/patri_11.72b7b3f77ec03090fed1.png",
@@ -148,11 +148,11 @@
     "static/media/icon_tele.png": "/my-portfolio/static/media/icon_tele.17deba7437f5909224b5.png",
     "static/media/github.png": "/my-portfolio/static/media/github.30ac768ada8b5097fb42.png",
     "index.html": "/my-portfolio/index.html",
-    "main.fec8ae73.css.map": "/my-portfolio/static/css/main.fec8ae73.css.map",
-    "main.f3506b41.js.map": "/my-portfolio/static/js/main.f3506b41.js.map"
+    "main.621bf6bf.css.map": "/my-portfolio/static/css/main.621bf6bf.css.map",
+    "main.a96c4f4d.js.map": "/my-portfolio/static/js/main.a96c4f4d.js.map"
   },
   "entrypoints": [
-    "static/css/main.fec8ae73.css",
-    "static/js/main.f3506b41.js"
+    "static/css/main.621bf6bf.css",
+    "static/js/main.a96c4f4d.js"
   ]
 }

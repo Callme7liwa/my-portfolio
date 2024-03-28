@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.621bf6bf.css",
-    "main.js": "/my-portfolio/static/js/main.a96c4f4d.js",
+    "main.css": "/my-portfolio/static/css/main.790baf4b.css",
+    "main.js": "/my-portfolio/static/js/main.ea59425a.js",
     "static/media/patri_9.png": "/my-portfolio/static/media/patri_9.84dc1044a25b7698e42b.png",
     "static/media/patri_10.png": "/my-portfolio/static/media/patri_10.63a47704fc9d2ed1da38.png",
     "static/media/patri_11.png": "/my-portfolio/static/media/patri_11.72b7b3f77ec03090fed1.png",
@@ -118,6 +118,7 @@
     "static/media/project_2.png": "/my-portfolio/static/media/project_2.1922df50a7b1ac5e5fe6.png",
     "static/media/foot_1.jpeg": "/my-portfolio/static/media/foot_1.9685b6e9f7e011e5eb80.jpeg",
     "static/media/project_1.png": "/my-portfolio/static/media/project_1.8b253546c0070ce71dfa.png",
+    "static/media/logo_education.png": "/my-portfolio/static/media/logo_education.0857f4bba92ca15d4ba8.png",
     "static/media/image_principal.png": "/my-portfolio/static/media/image_principal.370dafdaa4c26ac041b7.png",
     "static/media/stream_1.png": "/my-portfolio/static/media/stream_1.29f45744c9c2fc6277e9.png",
     "static/media/stream_2.png": "/my-portfolio/static/media/stream_2.0ccdba09cee5db5e321c.png",
@@ -128,6 +129,7 @@
     "static/media/web_dev_7.png": "/my-portfolio/static/media/web_dev_7.3d4531c7925633d49a92.png",
     "static/media/web_dev_8.png": "/my-portfolio/static/media/web_dev_8.77618fd54723b5087ea8.png",
     "static/media/reseauxsociaux.png": "/my-portfolio/static/media/reseauxsociaux.43618c63b3fa95e40d17.png",
+    "static/media/logo_intern.png": "/my-portfolio/static/media/logo_intern.ea5e137f63dbdb537c80.png",
     "static/media/stream_5.png": "/my-portfolio/static/media/stream_5.19bfc8e6b41717c7659e.png",
     "static/media/isima_logo.png": "/my-portfolio/static/media/isima_logo.96efc5a4750513a966bd.png",
     "static/media/web_dev_4.png": "/my-portfolio/static/media/web_dev_4.26e549513b91200987e9.png",
@@ -148,11 +150,11 @@
     "static/media/icon_tele.png": "/my-portfolio/static/media/icon_tele.17deba7437f5909224b5.png",
     "static/media/github.png": "/my-portfolio/static/media/github.30ac768ada8b5097fb42.png",
     "index.html": "/my-portfolio/index.html",
-    "main.621bf6bf.css.map": "/my-portfolio/static/css/main.621bf6bf.css.map",
-    "main.a96c4f4d.js.map": "/my-portfolio/static/js/main.a96c4f4d.js.map"
+    "main.790baf4b.css.map": "/my-portfolio/static/css/main.790baf4b.css.map",
+    "main.ea59425a.js.map": "/my-portfolio/static/js/main.ea59425a.js.map"
   },
   "entrypoints": [
-    "static/css/main.621bf6bf.css",
-    "static/js/main.a96c4f4d.js"
+    "static/css/main.790baf4b.css",
+    "static/js/main.ea59425a.js"
   ]
 }

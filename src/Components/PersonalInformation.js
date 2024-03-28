@@ -35,14 +35,14 @@ const PersonalInformation = ({mode}) => {
     {
       universityImage: Images.isima_logo,
       universityName: "Institut Supérieur d'Informatique, de Modélisation et de leurs Applications - France",
-      title: "Double Diplôme en Ingénierie - Génie Logiciel",
+      title: "Double d'Ingénieur d'etat - Génie Logiciel et systemes informatiques",
       period: "sept. 2023 - sept. 2025",
       comptences: ["html", "php", "java", "c#", "architectures logicielles", "conception de systèmes", "Docker", "Kubernetes", "Git"]
     },
     {
       universityImage: Images.ensias_logo,
       universityName: "École Nationale Supérieure d'Informatique et d'Analyse des Systèmes - Maroc",
-      title: "Diplôme d'Ingénieur - IDSIT: DATA SCIENCE & IOT",
+      title: "Diplôme d'Ingénieur d'etat - IDSIT: DATA SCIENCE & IOT",
       period: "sept. 2021 - juil. 2025",
       comptences: ["html", "php", "java", ".net", "android", "structures de données", "jee", "js", "uml", "merise", "sql", "sql server", "oracle database", "administration Windows", "administration Unix", "méthodes agiles", "analyse de données", "entrepôt de données", "Git"]
     },
@@ -101,7 +101,7 @@ const PersonalInformation = ({mode}) => {
 
     const RenderFormation = ({item}) => {
       return (
-        <div className="formation-item">
+        <div className="formation-item exp-item">
               <div className="item-title">
                   <div className={`${mode==1 ? 'light-border-blue' : ''} image-container`}>
                       <img src={item.universityImage} />
@@ -115,7 +115,8 @@ const PersonalInformation = ({mode}) => {
               </div>
               <div className="item-diplome-info">
                   <span className={`${mode==1 ? 'text-light' : ''} `}> 
-                    <i className={`${mode==1 ? 'light-border-blue' : ''} fa fa-angle-right `}></i>
+                    {/* <i className={`${mode==1 ? 'light-border-blue' : ''} fa fa-angle-right `}></i> */}
+                    <img src={Images.logo_education} className="logo-education" />
                     {item.title}
                   </span>
                   <div className="list-specialities">
@@ -135,7 +136,7 @@ const PersonalInformation = ({mode}) => {
             <div id="formations" className="body-container bodysecond-right">
                 <div className="body-title">
                     <img src={Images.formation_icon} className={`${mode==1 ? 'light-border-blue' : ''} `} />
-                    <span className={`${mode==1 ? 'text-light light-title' : ''} `}> Formations </span>
+                    <span className={`${mode==1 ? 'text-light light-title' : ''} `}> Formation </span>
                 </div>
                 <div className="list-formations">
                   {

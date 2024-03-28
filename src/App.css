@@ -11,6 +11,7 @@
   --color-bg-item-light : #e0e0e0;
   --color-blue-light : #4c46fe;   
   --box-shadow-1 :rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+  --box-shadow-2 : rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 *{
@@ -1394,4 +1395,16 @@ a {
 
 a{
   text-decoration: none;
+}
+
+
+.exp-item {
+  background-color: rgba(255, 255, 255, 0.014);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.logo-education {
+  width:  20px;
 }

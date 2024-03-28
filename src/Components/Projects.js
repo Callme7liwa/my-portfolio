@@ -177,7 +177,7 @@ const Projects = ({mode}) => {
             <div className="bodysecond-right">
                 <div className="body-title" >
                     <img src={Images.project_icon}  className={`${mode==1 ? 'light-border-blue' : ''} `}/>
-                    <span className={`${mode==1 ? 'text-light light-title' : ''} `}> Projects  </span>
+                    <span className={`${mode==1 ? 'text-light light-title' : ''} `}> Projets  </span>
                 </div>
                 <div className="list-projects">
                     {listProjects.map((item,index)=>(

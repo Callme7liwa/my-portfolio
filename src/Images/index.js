@@ -46,6 +46,8 @@ import icon_tele from "./icon_tele.png"
 import react_icon from "./react_icon.png"
 import icon_css from "./icon_css.png"
 import copyright from "./copyright.png"
+import logo_education from "./logo_education.png"
+import logo_intern from "./logo_intern.png"
 
 import baby_1 from "./baby/baby_1.png";
 import baby_2 from "./baby/baby_2.png";
@@ -179,7 +181,7 @@ import tasks_7 from "./tasks/7.jpg";
 export default {
     profile_image,image_principal,git_hub,post_man,react_js,
     birthday_icon,location_icon,nationality_icon,city_icon,
-    formation_icon,logo_fst,ensias_logo,isima_logo,experience_icon,elr12_logo,alkhayam_cars,logo_ge,
+    formation_icon,logo_fst,ensias_logo,isima_logo,experience_icon,elr12_logo,alkhayam_cars,logo_ge,logo_education,logo_intern,
     project_icon,web_dev_1,web_dev_2,web_dev_3,web_dev_4,web_dev_11,project_name_icon,flash_back_icon,title_icon,more_icon,
     period_icon,web_dev_5,web_dev_6,web_dev_7,mobil_dev_1,web_dev_8,web_dev_9,web_dev_12,images_icon,bk_logo,macdo_logo,
     reseaux_sociaux,apprentissage,design,web_dev_10,checked,icon_env,icon_tele,react_icon,icon_css,copyright,

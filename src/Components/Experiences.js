@@ -59,7 +59,7 @@ const Experiences = ({mode}) => {
   
     const RenderExperience = ({item}) => {
       return (
-        <div className="formation-item">
+        <div className="formation-item exp-item">
               <div className="item-title ">
                   <div className={`${mode==1 ? 'light-border-blue' : ''} image-container`}>
                       <img src={item.image}  className=""/>
@@ -74,9 +74,7 @@ const Experiences = ({mode}) => {
               <div className="item-diplome-info">
              
                   <span  className={`${mode==1 ? 'text-light' : ''} `}> 
-                   
-                        <i className={`${mode==1 ? 'light-border-blue' : ''} fa fa-angle-right `}></i>
-                   
+                     <img src={Images.logo_intern} className="logo-education"/>
                      <span className={`${mode==1 ? 'text-light' : ''} `}>{item.mission}</span>
                   </span>
                   <div className={`${mode==1 ? 'text-light' : ''} experience-description  `}>

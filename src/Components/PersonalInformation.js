@@ -2,64 +2,66 @@ import Images from "../Images"
 
 const PersonalInformation = ({mode}) => {
 
-    const myInformations = [
-        {
-          name : "Birthday",
-          image : Images.birthday_icon,
-          value : "01-11-2000",
-        },
-        {
-          name : "Natonality",
-          image : Images.nationality_icon,
-          value : "Moroccan",
-        },
-        {
-          name : "Country - City",
-          image : Images.city_icon,
-          value  : "France - Aubiere" , 
-        },
-        {
-          name : "Location",
-          image : Images.location_icon,
-          value : "15 rue roche genes",
-        },
-        {
-          name : "Civil State",
-          image : Images.formation_icon,
-          value : "Single"
-        }
-      ]
-
-    const listFormations = [
+  const myInformations = [
     {
-        universityImage : Images.isima_logo,
-        universityName  : "Higher Institute of Computer Science, Modeling, and their Applications - France",
-        title           : "Double Degree in Engineering - Software Engineering",
-        period          : "sept. 2023 - sept. 2025",
-        comptences      : ["html","php","java","c#","software architectures","systems design", "dockers", "kubernetes", "git"]
+      name: "Anniversaire",
+      image: Images.birthday_icon,
+      value: "01-11-2000",
     },
     {
-        universityImage : Images.ensias_logo,
-        universityName  : "National School of Computer Science and Systems Analysis - Maroc",
-        title           : "Engineering degree - IDSIT: DATA SCIENCE & IOT",
-        period          : "sept. 2021 - juil. 2024",
-        comptences      : ["html","php","java",".net","android","data structure","jee","js","uml","merise","sql","sql server","oracle database","windows administration" , "unix administration","agile methods","data analysis","data warehouse","Git"]
+      name: "Nationalité",
+      image: Images.nationality_icon,
+      value: "Marocaine",
     },
     {
-        universityImage : Images.logo_fst,
-        universityName : "Faculty of Sciences and Techniques - Maroc ",
-        title : "bachelor's degree - computer engineering",
-        period          : "sept. 2021 - juil. 2024",
-        comptences : ["html", "css","js","php","java","C++","Swing","sql","Uml","merise","tcp/ip","unix"],
+      name: "Pays - Ville",
+      image: Images.city_icon,
+      value: "France - Aubière",
     },
     {
-        universityImage : Images.logo_fst,
-        universityName : "Faculty of Sciences and Techniques - Maroc",
-        title : "Diploma of scientific and technical university studies (DEUST) - Mathematics, Computer Science, and Physics",
-        period          : "sept. 2021 - juil. 2024",
-        comptences      : ["Algorithms" , "C" , "Mathematical Analysis" , "Linear algebra" , "Arduino"]
+      name: "Adresse",
+      image: Images.location_icon,
+      value: "15 rue Roche Genès",
+    },
+    {
+      name: "État civil",
+      image: Images.formation_icon,
+      value: "Célibataire"
     }
-    ]
+    
+  ];
+  
+  const listFormations = [
+    {
+      universityImage: Images.isima_logo,
+      universityName: "Institut Supérieur d'Informatique, de Modélisation et de leurs Applications - France",
+      title: "Double Diplôme en Ingénierie - Génie Logiciel",
+      period: "sept. 2023 - sept. 2025",
+      comptences: ["html", "php", "java", "c#", "architectures logicielles", "conception de systèmes", "Docker", "Kubernetes", "Git"]
+    },
+    {
+      universityImage: Images.ensias_logo,
+      universityName: "École Nationale Supérieure d'Informatique et d'Analyse des Systèmes - Maroc",
+      title: "Diplôme d'Ingénieur - IDSIT: DATA SCIENCE & IOT",
+      period: "sept. 2021 - juil. 2025",
+      comptences: ["html", "php", "java", ".net", "android", "structures de données", "jee", "js", "uml", "merise", "sql", "sql server", "oracle database", "administration Windows", "administration Unix", "méthodes agiles", "analyse de données", "entrepôt de données", "Git"]
+    },
+    {
+      universityImage: Images.logo_fst,
+      universityName: "Faculté des Sciences et Techniques - Maroc ",
+      title: "Licence en Génie Informatique",
+      period: "sept. 2020 - juil. 2021",
+      comptences: ["html", "css", "js", "php", "java", "C++", "Swing", "sql", "Uml", "merise", "tcp/ip", "unix"]
+    },
+    {
+      universityImage: Images.logo_fst,
+      universityName: "Faculté des Sciences et Techniques - Maroc",
+      title: "Diplôme d'Études Universitaires Scientifiques et Techniques (DEUST) - Mathématiques, Informatique et Physique",
+      period: "sept. 2018 - juil. 2020",
+      comptences: ["Algorithmes", "C", "Analyse mathématique", "Algèbre linéaire", "Arduino"]
+    }
+  ];
+  
 
     const RenderItemInfo = ({item}) => {
       return (

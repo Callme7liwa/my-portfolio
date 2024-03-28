@@ -2,24 +2,24 @@ import Images from "../Images"
 
 const AboutMe = ({mode}) => {
 
-    const listInfoAboutMe = [
-      {
-         image : Images.apprentissage,
-         title : "Learning Progress",
-         description : "I am passionate about continuous learning and personal growth. I am constantly seeking out new skills and knowledge that I can acquire to improve my abilities. I enjoy finding new challenges for myself and working hard to overcome them. I believe that the key to success is perseverance and determination. That's why I try to maximize every moment of my time by staying productive and learning something new every day. For me, it's important to stay engaged in continuous learning and to stay up-to-date with the latest trends and technologies to improve my skills and deliver the best possible quality to my projects."
-      },
-      {
-         image : Images.design,
-         title : "Mobile and Web Design Enthuisiast",
-         description :"I am passionate about creating user interfaces that are not only aesthetically pleasing but also enhance the user experience. My design approach is to create interfaces from scratch for each project. I believe that every project is unique and deserves special attention in its design. Rather than using pre-made templates, I enjoy taking the time to understand users' needs and preferences to create a unique, customized user interface that meets their specific requirements. By working in this way, I am confident that I can create user interfaces that are innovative, elegant, and functional."
-      },
-      {
-         image : Images.reseaux_sociaux,
-         title : "Social Networks",
-         description :"IN ADDITION TO MY SKILLS IN WEB DESIGN AND DEVELOPMENT, I AM ALSO PASSIONATE ABOUT DIGITAL MARKETING AND SOCIAL MEDIA MANAGEMENT. I HAVE AN INSTAGRAM PAGE WITH OVER 60K FOLLOWERS THAT I BUILT FROM SCRATCH. THROUGH THIS EXPERIENCE, I HAVE GAINED A STRONG UNDERSTANDING OF SOCIAL MEDIA MARKETING STRATEGIES AND HOW TO CREATE AND PROMOTE ENGAGING CONTENT. I AM PROUD OF MY ABILITY TO CREATE SUCCESSFUL AD CAMPAIGNS AND USE ANALYTICS DATA TO IMPROVE THE PERFORMANCE OF MY SOCIAL MEDIA ACCOUNTS."
-      },
-     
-    ]
+  const listInfoAboutMe = [
+    {
+      image: Images.apprentissage,
+      title: "Progrès dans l'apprentissage",
+      description: "Je suis passionné par l'apprentissage continu et la croissance personnelle. Je cherche constamment de nouvelles compétences et connaissances que je peux acquérir pour améliorer mes capacités. J'aime relever de nouveaux défis et travailler dur pour les surmonter. Je crois que la clé du succès est la persévérance et la détermination. C'est pourquoi j'essaie de maximiser chaque instant de mon temps en restant productif et en apprenant quelque chose de nouveau chaque jour. Pour moi, il est important de rester engagé dans l'apprentissage continu et de rester à jour avec les dernières tendances et technologies pour améliorer mes compétences et offrir la meilleure qualité possible à mes projets."
+    },
+    {
+      image: Images.design,
+      title: "Passionné par la conception mobile et web",
+      description: "Je suis passionné par la création d'interfaces utilisateur qui sont non seulement esthétiquement plaisantes, mais qui améliorent également l'expérience utilisateur. Ma démarche de conception consiste à créer des interfaces à partir de zéro pour chaque projet. Je crois que chaque projet est unique et mérite une attention particulière dans sa conception. Plutôt que d'utiliser des modèles préfabriqués, j'aime prendre le temps de comprendre les besoins et les préférences des utilisateurs pour créer une interface utilisateur unique et personnalisée qui répond à leurs exigences spécifiques. En travaillant de cette manière, je suis convaincu que je peux créer des interfaces utilisateur innovantes, élégantes et fonctionnelles."
+    },
+    {
+      image: Images.reseaux_sociaux,
+      title: "Réseaux sociaux",
+      description: "EN PLUS DE MES COMPÉTENCES EN CONCEPTION ET DÉVELOPPEMENT WEB, JE SUIS ÉGALEMENT PASSIONNÉ PAR LE MARKETING NUMÉRIQUE ET LA GESTION DES RÉSEAUX SOCIAUX. J'AI UNE PAGE INSTAGRAM AVEC PLUS DE 60K ABONNÉS QUE J'AI CONSTRUITE À PARTIR DE ZÉRO. GRÂCE À CETTE EXPÉRIENCE, J'AI ACQUIS UNE SOLIDE COMPRÉHENSION DES STRATÉGIES DE MARKETING SUR LES RÉSEAUX SOCIAUX ET COMMENT CRÉER ET PROMOUVOIR UN CONTENU ENGAGEANT. JE SUIS FIÈRE DE MA CAPACITÉ À CRÉER DES CAMPAGNES PUBLICITAIRES RÉUSSIES ET À UTILISER LES DONNÉES ANALYTIQUES POUR AMÉLIORER LES PERFORMANCES DE MES COMPTES SUR LES RÉSEAUX SOCIAUX."
+    },
+  ];
+  
     
     
     const RenderInformations = () => {

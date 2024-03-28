@@ -2,60 +2,61 @@ import Images from "../Images";
 
 const Experiences = ({mode}) => {
     
-    const listExepriences = [
-        {
-          image: Images.logo_ge,
-          name: "General Electric Vernova",
-          title: "DEVSECOPS Engineering Intern - France",
-          mission: "Web Development and Release Automation",
-          description: "Setting up a CI/CD build pipeline in accordance with central team recommendations, and documenting the process to facilitate maintenance and evolution of the CI/CD pipeline. Participating in the development of applications (backend and frontend).",
-          period: "Mar. 2024 - Present · 1+ month",
-        },
-        {
-          image : Images.bk_logo,
-          name  : "Burger King",
-          title : "Versatile Team Member - France",
-          mission : "Enhancing customer experience through efficient transactions and precise order preparation as a versatile team member",
-          description : "elivering exceptional customer service by efficiently handling transactions, preparing accurate orders, and maintaining a clean work environment as a versatile team member. Committed to ensuring a seamless and positive experience for customers, contributing to the overall success of the team.",
-          period : "Sept. 2023 - Feb. 2024 · 5 month",
-        },
-        {
-          image : Images.alkhayam_cars,
-          name  : "Alkhaym Cars",
-          title : "Full Stack Enginner Intern- Maroc",
-          mission : "Design and Implementation of a platform to manage all aspects of reservation projects, from planning to delivery.",
-          description : "Developing a mobile application for a car rental agency, streamlining the reservation process, and providing quick access to a variety of vehicles.",
-          period : "Jul. 2022 - Aug 2023 · 2 month",
-          technologies : ["figma","flutter","laravel","redux","git","github","uml"]
-        },
-        {
-          image : Images.elr12_logo,
-          name  : "Elr12",
-          title : "Full Stack Enginner Intern - Maroc",
-          mission : "Design and Implementation of a Project Management Application.",
-          description : "I developed a custom web-based project management application for a company, providing an end-to-end solution for planning, collaborating, and overseeing projects. With an intuitive and user-friendly interface, team members can easily track tasks, deadlines, and budgets while staying informed of real-time updates. This application has enabled productivity optimization and improved communication among team members, resulting in more efficient and effective project delivery.",
-          period : "Jul. 2022 - Aug 2022 · 2 month",
-          technologies : ["java","spring boot","mongodb","react js","redux","git","github","uml"]
-        },
-        {
-          image : Images.logo_fst,
-          name  : "Faculty of Sciences and Techniques of Fes - Maroc",
-          title : "Full Stack Enginner Intern",
-          mission : "Development and design of a web platform for Moroccan heritage management",
-          description : "This end-of-studies project, carried out within the LSIA (laboratory Intelligent Systems and applications), had as its objective , the implementation of a management system for the  Moroccan cultural heritage. This system aims to automate the registration, querying and accessing information mainly concerning the categories of the following heritage: historic buildings, archaeological sites and cultural objects. " ,
-          period : "mai 2021 - Jun 2021 · 2 month",
-          technologies : ["php","laravel","js","jquery","mysql","uml"]
-        },
-        {
-          image : Images.macdo_logo,
-          name  : "Macdonald's",
-          title : "Versatile Team Member - Maroc",
-          mission : "Enhancing customer experience through efficient transactions and precise order preparation as a versatile team member",
-          description : "elivering exceptional customer service by efficiently handling transactions, preparing accurate orders, and maintaining a clean work environment as a versatile team member. Committed to ensuring a seamless and positive experience for customers, contributing to the overall success of the team.",
-          period : "Jun. 2019 - Sept. 2020 · 3+ months",
-        },
-      ];
-
+  const listExepriences = [
+    {
+      image: Images.logo_ge,
+      name: "General Electric Vernova",
+      title: "Stagiaire en Ingénierie DEVSECOPS - France",
+      mission: "Développement Web et Automatisation des Livraisons",
+      description: "Mise en place d'un pipeline de construction CI/CD conformément aux recommandations de l'équipe centrale et documentation du processus pour faciliter la maintenance et l'évolution du pipeline CI/CD. Participation au développement d'applications (backend et frontend).",
+      period: "Mars 2024 - Présent · 1+ mois",
+      technologies: ["githubaction", "aqua trivy", "kubernetes","terrafom", "aws", "sonarqube", "docker", "spring boot", "angular"]
+    },
+    {
+      image: Images.bk_logo,
+      name: "Burger King",
+      title: "Membre Polyvalent de l'Équipe - France",
+      mission: "Amélioration de l'expérience client grâce à des transactions efficaces et une préparation de commandes précise en tant que membre polyvalent de l'équipe",
+      description: "Fournir un service client exceptionnel en traitant efficacement les transactions, en préparant des commandes précises et en maintenant un environnement de travail propre en tant que membre polyvalent de l'équipe. Engagé à assurer une expérience fluide et positive pour les clients, contribuant ainsi au succès global de l'équipe.",
+      period: "Septembre 2023 - Février 2024 · 5 mois",
+    },
+    {
+      image: Images.alkhayam_cars,
+      name: "Alkhaym Cars",
+      title: "Stagiaire Ingénieur Full Stack - Maroc",
+      mission: "Conception et Implémentation d'une plateforme pour gérer tous les aspects des projets de réservation, de la planification à la livraison.",
+      description: "Développement d'une application mobile pour une agence de location de voitures, rationalisant le processus de réservation et offrant un accès rapide à une variété de véhicules.",
+      period: "Juillet 2022 - Août 2023 · 2 mois",
+      technologies: ["figma", "flutter", "laravel", "redux", "git", "github", "uml"]
+    },
+    {
+      image: Images.elr12_logo,
+      name: "Elr12",
+      title: "Stagiaire Ingénieur Full Stack - Maroc",
+      mission: "Conception et Implémentation d'une Application de Gestion de Projets.",
+      description: "Développement d'une application web sur mesure pour la gestion de projet, permettant une planification, une collaboration et un suivi efficaces. L'interface intuitive facilite le suivi des tâches, des délais et des budgets en temps réel, favorisant ainsi une productivité accrue et une meilleure communication au sein de l'équipe.",
+      period: "Juillet 2022 - Août 2022 · 2 mois",
+      technologies: ["java", "spring boot", "mongodb", "react js", "redux", "git", "github", "uml"]
+    },
+    {
+      image: Images.logo_fst,
+      name: "Faculté des Sciences et Techniques de Fès - Maroc",
+      title: "Stagiaire Ingénieur Full Stack",
+      mission: "Développement et conception d'une plateforme web pour la gestion du patrimoine marocain",
+      description: "Ce projet de fin d'études, réalisé au sein du LSIA (laboratoire Systèmes Intelligents et applications), avait pour objectif la mise en œuvre d'un système de gestion du patrimoine culturel marocain. Ce système vise à automatiser l'enregistrement, la recherche et l'accès aux informations concernant principalement les catégories du patrimoine suivantes : bâtiments historiques, sites archéologiques et objets culturels.",
+      period: "Mai 2021 - Juin 2021 · 2 mois",
+      technologies: ["php", "laravel", "js", "jquery", "mysql", "uml"]
+    },
+    {
+      image: Images.macdo_logo,
+      name: "Macdonald's",
+      title: "Membre Polyvalent de l'Équipe - Maroc",
+      mission: "Amélioration de l'expérience client grâce à des transactions efficaces et une préparation de commandes précise en tant que membre polyvalent de l'équipe",
+      description: "Fournir un service client exceptionnel en traitant efficacement les transactions, en préparant des commandes précises et en maintenant un environnement de travail propre en tant que membre polyvalent de l'équipe. Engagé à assurer une expérience fluide et positive pour les clients, contribuant ainsi au succès global de l'équipe.",
+      period: "Juin 2019 - Septembre 2020 · 3+ mois",
+    },
+  ];
+  
     const RenderExperience = ({item}) => {
       return (
         <div className="formation-item">
@@ -72,12 +73,15 @@ const Experiences = ({mode}) => {
               </div>
               <div className="item-diplome-info">
              
-                  <span className={`${mode==1 ? 'text-light' : ''} `}> 
-                    <i className={`${mode==1 ? 'light-border-blue' : ''} fa fa-angle-right `}></i>
-                    {item.mission}
+                  <span  className={`${mode==1 ? 'text-light' : ''} `}> 
+                   
+                        <i className={`${mode==1 ? 'light-border-blue' : ''} fa fa-angle-right `}></i>
+                   
+                     <span className={`${mode==1 ? 'text-light' : ''} `}>{item.mission}</span>
                   </span>
                   <div className={`${mode==1 ? 'text-light' : ''} experience-description  `}>
-                     {item.description}
+                     <div className="line"> </div>
+                     <div>{item.description}</div>
                   </div>
                   <div className="list-specialities">
                       {
